@@ -10,4 +10,5 @@
 button {
   background-color: aliceblue;
   font-weight: bold;
+  border-radius: 10px;
 }
