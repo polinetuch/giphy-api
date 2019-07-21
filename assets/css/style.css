@@ -1,3 +1,13 @@
-body {
-    background-color: antiquewhite;
+.container {
+  text-align: center;
+}
+
+.jumbotron {
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+button {
+  background-color: aliceblue;
+  font-weight: bold;
 }

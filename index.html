@@ -11,17 +11,49 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <title>Giphy & API - Fun</title>
+    <title>Giphy Fun</title>
   </head>
   <body>
-    <div class="jumbotron">Search My Favourite Gifs</div>
-    <button class="btn btn-primary">Button</button>
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron">Search My Favourite Gifs</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-group mb-3 col-md-12">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="search here"
+            aria-label="search here"
+            aria-describedby="button-addon2"
+          />
+          <div class="input-group-append">
+            <button
+              class="btn btn-outline-secondary"
+              type="submit"
+              id="submitBtn"
+            >
+              Find Gifs
+            </button>
+          </div>
+        </div>
+      </div>
+          <button data-joke="programmer-jokes">Programmer Jokes</button>
+          <button data-joke="asian-parents">Asian Parents Jokes</button>
+          <button data-joke="asian-kids">Asian Kids Jokes</button>
+
+        <div id="displayGifHere"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
-    />
+    ></script>
     <script src="./assets/javascript/app.js"></script>
   </body>
 </html>
