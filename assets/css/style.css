@@ -15,7 +15,7 @@
 
 #displayGifHere {
   font-weight: bold;
-  background-image: url("https://media.giphy.com/media/5ZxNrXv91Sidi/giphy.gif");
+  background-image: url("https://cdn.dribbble.com/users/165025/screenshots/2922036/spaceships-in-space.gif");
   width: 100%;
 }
 
@@ -35,6 +35,11 @@
 
 button {
   background-color: aliceblue;
+  color: black;
   font-weight: bold;
   border-radius: 10px;
+}
+
+p {
+  color: white;
 }
