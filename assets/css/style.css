@@ -23,21 +23,20 @@
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 20pt;
+  padding: 20px;
 }
 
-#submitBtn {
+#add-gif {
   background-color: salmon;
   color: black;
   font-weight: bold;
-  margin-right: 20px;
-  margin-bottom: 20px;
 }
 
-button {
-  background-color: aliceblue;
+.gif-button {
+  background-color: salmon;
   color: black;
   font-weight: bold;
-  border-radius: 10px;
+  margin-right: 10px;
 }
 
 p {
